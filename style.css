@@ -51,27 +51,34 @@ section{
   width: 1400px;
   margin: 0 auto;
 }
+
 .header {
   width: 100%;
-  margin: 50 auto;
   text-align: center;
 }
 
 .header h1 {
   font-size: 100px;
-  letter-spacing: 1.2px;
+  letter-spacing: 36.2px;
   background: no-repeat url("IMG_0055.jpg");
   padding: 80px;
+  color: #2b2b2b;
+  margin: 0;
 }
 
 .header-nav {
+  width: 1400px;
+  margin: 0 auto;
   width: 100%;
-  height: 100px;
+  height: 70px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: #92c3d5;
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 nav ul {
@@ -81,12 +88,12 @@ nav ul {
 }
 nav ul li{
   margin-right: 50px;
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: 1.2px;
 }
-.about h2 {
-  text-align: center;
-  margin: 50px;
+.about h2 ,.Skill h2,.work h2,.gallery h2{
+  text-align: center; 
+  margin: 40px auto;
 }
 .about p{
   text-align: center;
@@ -97,12 +104,11 @@ nav ul li{
 }
 .box{
   position: relative;
-  margin: 10px 80px;
 }
 .profile {
   margin: 100px auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .profile_illust img{
   width: 400px;
@@ -132,13 +138,20 @@ nav ul li{
   display: block;
 }
 .career{
-  width: 350px;
-  margin: auto 80px;
   text-align: center;
   border: solid  2px #8e8e8e;
   border-radius: 20px;
-  padding: 40px ;
-  position:relative;
+  padding: 55px ;
+  position: relative;
+  background-color: #fff;
+}
+.career h2{
+  display: inline-block;
+  border-bottom: solid 5px #38768d;
+  margin-bottom: 40px;
+}
+.career p{
+  font-size: 14px;
 }
 .box2 {
   width: 30px;
@@ -150,4 +163,168 @@ nav ul li{
   position: absolute;
   left: -17px;
   top: 150px;
+}
+.skills{
+  width: 1300px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+ul li{
+  display: inline-flex;
+}
+.Skill {
+    background-color: #F9EBA1;
+    padding-top: 1px;
+    margin: 0;
+}
+
+.skills li div{
+  display: table-cell;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.skills img{
+  position: absolute;
+  top: 14%;
+  left: 34%;
+  width: 119px;
+}
+
+.skill_box {
+  position: inherit;
+  top: 50%;
+  display: block;
+  text-align: center;
+}
+.skill_box h3{
+  font-size: 18px;
+  margin: 10px auto;
+}
+.skills .skill_box li{
+  display: block;
+  text-align: center;
+  vertical-align: bottom;
+  list-style-type: disc;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.sa--up {
+  transform: translate(0, 100px);
+  padding: 32px;
+}
+.sa {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+.sa.show {
+  opacity: 1;
+  transform: none;
+}
+section.work {
+  background-color: #fff;
+  height: 2370px;
+}
+section.work .innner,
+section.gallery .innner{
+  margin: 100px auto 70px;
+  width: 1500px;
+}
+.innner{
+  background-color: #fff;
+  display: flex;
+  width: 1300px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.gallery{
+  height: 1444px;
+  margin: 40px auto;
+}
+.category{
+  margin: 0;
+  width: 83px;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1.6px;
+  text-indent: 2.2px;
+}
+div.tag h6{
+  margin: 0;
+  padding: 5px;
+  border: solid 1px #6c6c6c;
+  display: inline-block;
+}
+.innner .lp figure {
+  margin: 0;
+  padding: 0;
+  width: 390px;
+  height: 600px;
+  overflow: hidden;
+border: solid #ccc 1px;  
+}
+.innner .lp figure  img{
+  object-position: 100% 0;
+}
+.innner .banner figure {
+  margin: 0;
+  padding: 0;
+  width: 390px;
+  height: 151px;
+  overflow: hidden;
+  border: solid #ccc 1px;  
+}
+.innner .banner figure img{
+  object-fit: contain;
+}
+.innner img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+.innner img:hover{
+transform: scale(1.1);
+transition-duration: 0.5s;
+}
+.more{
+  margin: 0px auto 120px;
+}
+.more a {
+  position: relative;
+  width: 240px;
+  height: 75px;
+  background: url("img/more.png") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.more a:hover {
+  background-image: url("img/more_after.png");
+}
+
+.innner .illust figure {
+  margin: 0;
+  padding: 0;
+  width: 271px;
+  height: 271px;
+  overflow: hidden;
+border: solid #ccc 1px;  
+}
+.innner .illust figure img{
+  object-fit: contain;
+}
+#aboutjp,#workjp,#galleryjp,#contact {
+  padding: 30px;
 }
