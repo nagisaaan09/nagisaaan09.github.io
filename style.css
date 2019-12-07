@@ -108,12 +108,13 @@ nav ul li{
 .profile {
   margin: 100px auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .profile_illust img{
-  width: 400px;
+  width: 346px;
   border-radius: 50%;
   border: solid #92c3d5 5px;
+  margin: 0 50px 0;
 }
 .name h2{
   font-size: 16px;
@@ -124,13 +125,13 @@ nav ul li{
   top: 35%;
 }
 .name {  
-  width: 230px;
-  height: 230px;
+  width: 195px;
+  height: 195px;
   border-radius: 50%;
   background-color: #92c3d5;
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 307px;
+  left: 234px;
   z-index: -2;
 }
 .profile_illust {
@@ -144,6 +145,7 @@ nav ul li{
   padding: 55px ;
   position: relative;
   background-color: #fff;
+  margin: 0 50px;
 }
 .career h2{
   display: inline-block;
@@ -165,9 +167,9 @@ nav ul li{
   top: 150px;
 }
 .skills{
-  width: 1300px;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-bottom: 50px;
   margin: 0 auto;
 }
@@ -183,16 +185,17 @@ ul li{
 .skills li div{
   display: table-cell;
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 267px;
+  height: 267px;
   background-color: #fff;
   border-radius: 50%;
+  margin: 15px;
 }
 .skills img{
   position: absolute;
   top: 14%;
   left: 34%;
-  width: 119px;
+  width: 80px;
 }
 
 .skill_box {
@@ -202,16 +205,14 @@ ul li{
   text-align: center;
 }
 .skill_box h3{
-  font-size: 18px;
-  margin: 10px auto;
+  font-size: 12px;
 }
 .skills .skill_box li{
   display: block;
   text-align: center;
   vertical-align: bottom;
   list-style-type: disc;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 11px;
 }
 .sa--up {
   transform: translate(0, 100px);
@@ -230,10 +231,13 @@ section.work {
   background-color: #fff;
   height: 2370px;
 }
+section.work .innner {
+  width: 75%;
+}
 section.work .innner,
 section.gallery .innner{
   margin: 100px auto 70px;
-  width: 1500px;
+  width: 1020px;
 }
 .innner{
   background-color: #fff;
@@ -241,7 +245,6 @@ section.gallery .innner{
   width: 1300px;
   display: flex;
   margin: 0 auto;
-  padding: 20px 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -267,8 +270,8 @@ div.tag h6{
 .innner .lp figure {
   margin: 0;
   padding: 0;
-  width: 390px;
-  height: 600px;
+  width: 256px;
+  height: 574px;
   overflow: hidden;
 border: solid #ccc 1px;  
 }
@@ -278,7 +281,7 @@ border: solid #ccc 1px;
 .innner .banner figure {
   margin: 0;
   padding: 0;
-  width: 390px;
+  width: 258px;
   height: 151px;
   overflow: hidden;
   border: solid #ccc 1px;  
