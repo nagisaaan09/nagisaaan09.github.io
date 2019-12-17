@@ -45,7 +45,7 @@ a:hover {
 }
 /*====main=====*/
 section{
-  margin-bottom: 120px;
+  margin-bottom: 56px;
 }
 .content-wrapper {
   width: 1400px;
@@ -56,14 +56,14 @@ section{
   width: 100%;
   text-align: center;
 }
-
 .header h1 {
-  font-size: 100px;
-  letter-spacing: 36.2px;
-  background: no-repeat url("IMG_0055.jpg");
-  padding: 80px;
-  color: #2b2b2b;
+  height: 400px;
+  background: url("IMG_0055.jpg");
   margin: 0;
+}
+.header h1 img{
+  width: 860px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -91,9 +91,10 @@ nav ul li{
   font-size: 17px;
   letter-spacing: 1.2px;
 }
-.about h2 ,.Skill h2,.work h2,.gallery h2{
+.about h2 ,.Skill h2,.work h2,.gallery h2,.contact h2{
   text-align: center; 
   margin: 40px auto;
+  font-size: 35px;
 }
 .about p{
   text-align: center;
@@ -169,7 +170,7 @@ nav ul li{
 .skills{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 50px;
   margin: 0 auto;
 }
@@ -210,13 +211,11 @@ ul li{
 .skills .skill_box li{
   display: block;
   text-align: center;
-  vertical-align: bottom;
   list-style-type: disc;
   font-size: 11px;
 }
 .sa--up {
   transform: translate(0, 100px);
-  padding: 32px;
 }
 .sa {
   opacity: 0;
@@ -229,7 +228,7 @@ ul li{
 }
 section.work {
   background-color: #fff;
-  height: 2370px;
+  margin-bottom: 200px;
 }
 section.work .innner {
   width: 75%;
@@ -237,19 +236,20 @@ section.work .innner {
 section.work .innner,
 section.gallery .innner{
   margin: 100px auto 70px;
-  width: 1020px;
+  width: 90%;
 }
+
+
 .innner{
   background-color: #fff;
   display: flex;
-  width: 1300px;
+
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
 }
 section.gallery{
-  height: 1444px;
   margin: 40px auto;
 }
 .category{
@@ -267,26 +267,36 @@ div.tag h6{
   border: solid 1px #6c6c6c;
   display: inline-block;
 }
+.lp,.banner,.sale_banner, .illust {
+  padding: 10px 37px;
+}
 .innner .lp figure {
   margin: 0;
   padding: 0;
-  width: 256px;
-  height: 574px;
+  width: 291px;
+  height: 561px;
   overflow: hidden;
 border: solid #ccc 1px;  
 }
 .innner .lp figure  img{
   object-position: 100% 0;
 }
+.innner .sale_banner figure {
+  margin: 0;
+  padding: 0;
+  width: 290px;
+  overflow: hidden;
+border: solid #ccc 1px;  
+}
+
 .innner .banner figure {
   margin: 0;
   padding: 0;
-  width: 258px;
-  height: 151px;
+  width: 291px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
-.innner .banner figure img{
+.innner .banner .sale_banner figure img{
   object-fit: contain;
 }
 .innner img{
@@ -300,7 +310,7 @@ transform: scale(1.1);
 transition-duration: 0.5s;
 }
 .more{
-  margin: 0px auto 120px;
+  margin: 0px auto 78px;
 }
 .more a {
   position: relative;
@@ -316,18 +326,45 @@ transition-duration: 0.5s;
 .more a:hover {
   background-image: url("img/more_after.png");
 }
-
 .innner .illust figure {
-  margin: 0;
+  margin: 0px;
   padding: 0;
-  width: 271px;
-  height: 271px;
+  width: 291px;
+  height: 284px;
   overflow: hidden;
-border: solid #ccc 1px;  
+  border: solid #ccc 1px;  
 }
 .innner .illust figure img{
   object-fit: contain;
 }
-#aboutjp,#workjp,#galleryjp,#contact {
+#aboutjp,#workjp,#galleryjp,#contactjp {
   padding: 30px;
+}
+.gallery_back {
+  background: no-repeat url("IMG_0055.jpg");
+  background-position: 50% 50%;
+}
+.contact {
+  margin: 0 auto;
+  width: 640px;
+}
+.contactback {
+  background-color: #92c3d5;
+}
+.back{
+  margin: 0px auto 78px;
+}
+.back a {
+  position: relative;
+  width: 240px;
+  height: 75px;
+  background: url("img/more.png") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.back a:hover {
+  background-image: url("img/more_after.png");
 }
