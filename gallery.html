@@ -17,10 +17,10 @@
   <div class="header-nav">
     <nav>
       <ul>
-        <li><a href="/#aboutjp"><img src="img/aboutimg.png" alt=""></a></li>
-        <li><a href="/#workjp"><img src="img/work.png" alt=""></a></li>
+        <li><a href="index.html#aboutjp"><img src="img/aboutimg.png" alt=""></a></li>
+        <li><a href="work.html"><img src="img/work.png" alt=""></a></li>
         <li><a href="/#galleryjp"><img src="img/gallery.png" alt=""></a></li>
-        <li><a href="/#contactjp"><img src="img/contact.png" alt=""></a></li>
+        <li><a href="index.html#contactjp"><img src="img/contact.png" alt=""></a></li>
       </ul>
     </nav>
   </div>
@@ -44,7 +44,7 @@
     <!-- 作品1 -->
 
     <!-- 作品2 -->
-    <div class="sa sa--up illust" data-sa_margin="200">
+    <div class="sa sa--up illust" data-sa_margin="100">
       <h6 class="category">Procreate</h6>
       <figure><a href="audrey.jpg" data-lightbox="group">
           <img src="audrey.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -56,7 +56,7 @@
     <!-- 作品2 -->
 
     <!-- 作品3 -->
-    <div class="sa sa--up illust" data-sa_margin="300">
+    <div class="sa sa--up illust" data-sa_margin="100">
       <h6 class="category">Procreate</h6>
       <figure><a href="icon.jpg" data-lightbox="group">
           <img src="icon.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -69,7 +69,7 @@
 
     <!-- 作品6 -->
     <!-- 作品7 -->
-    <div class="sa sa--up illust" data-sa_margin="300">
+    <div class="sa sa--up illust" data-sa_margin="100">
         <h6 class="category">Procreate</h6>
         <figure><a href="gallery/girl.jpg" data-lightbox="group">
             <img src="gallery/girl.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -81,7 +81,7 @@
       <!-- 作品7 -->
 
       <!-- 作品8 -->
-      <div class="sa sa--up illust" data-sa_margin="400">
+      <div class="sa sa--up illust" data-sa_margin="200">
         <h6 class="category">Procreate</h6>
         <figure><a href="gallery/fish.jpg" data-lightbox="group">
             <img src="gallery/fish.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -95,7 +95,7 @@
     </div>
   </div>
     <!-- more -->
-    <div class="more sa sa--up"><a href="/index.html"><img src="img/more2.jpg" alt=""></a></div>
+    <!--<div class="more sa sa--up"><a href="index.html"><img src="img/more2.jpg" alt=""></a></div>-->
     <!-- more -->
   </div>
   </section>
@@ -106,7 +106,7 @@
   var scrollAnimationElm = document.querySelectorAll('.sa');
   var scrollAnimationFunc = function() {
     for(var i = 0; i < scrollAnimationElm.length; i++) {
-      var triggerMargin = 150;
+      var triggerMargin = 100;
       var elm = scrollAnimationElm[i];
       var showPos = 0;
       if(elm.dataset.sa_margin != null) {
