@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="lightbox.css">
-  <title>Document</title>
+  <title>gallery</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
@@ -28,7 +28,7 @@
   
 <div id="galleryjp"></div>
 <section class="gallery">
-  <h2 class="sa sa--up illust" data-sa_margin="100">gallery：趣味のイラストや画像加工したもの</h2>
+  <h2 class="sa sa--up illust" data-sa_margin="100"><img src="img/gallery_h.png" alt=""></h2>
   <div class="gallery_back">
   <div class="innner">
     <!-- 作品1 -->
@@ -44,7 +44,7 @@
     <!-- 作品1 -->
 
     <!-- 作品2 -->
-    <div class="sa sa--up illust" data-sa_margin="100">
+    <div class="sa sa--up illust" data-sa_margin="200">
       <h6 class="category">Procreate</h6>
       <figure><a href="audrey.jpg" data-lightbox="group">
           <img src="audrey.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -56,7 +56,7 @@
     <!-- 作品2 -->
 
     <!-- 作品3 -->
-    <div class="sa sa--up illust" data-sa_margin="100">
+    <div class="sa sa--up illust" data-sa_margin="300">
       <h6 class="category">Procreate</h6>
       <figure><a href="icon.jpg" data-lightbox="group">
           <img src="icon.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -69,7 +69,7 @@
 
     <!-- 作品6 -->
     <!-- 作品7 -->
-    <div class="sa sa--up illust" data-sa_margin="100">
+    <div class="sa sa--up illust" data-sa_margin="300">
         <h6 class="category">Procreate</h6>
         <figure><a href="gallery/girl.jpg" data-lightbox="group">
             <img src="gallery/girl.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -81,7 +81,7 @@
       <!-- 作品7 -->
 
       <!-- 作品8 -->
-      <div class="sa sa--up illust" data-sa_margin="200">
+      <div class="sa sa--up illust" data-sa_margin="400">
         <h6 class="category">Procreate</h6>
         <figure><a href="gallery/fish.jpg" data-lightbox="group">
             <img src="gallery/fish.jpg" class="attachment- wp-post-image" alt="M1805_H1_S" /></a>
@@ -106,7 +106,7 @@
   var scrollAnimationElm = document.querySelectorAll('.sa');
   var scrollAnimationFunc = function() {
     for(var i = 0; i < scrollAnimationElm.length; i++) {
-      var triggerMargin = 100;
+      var triggerMargin = 150;
       var elm = scrollAnimationElm[i];
       var showPos = 0;
       if(elm.dataset.sa_margin != null) {
