@@ -190,7 +190,7 @@ ul li{
   height: 300px;
   background-color: #fff;
   border-radius: 50%;
-  margin: 15px;
+  margin: 33px;
 }
 .skills img{
   position: absolute;
@@ -228,15 +228,14 @@ ul li{
 }
 section.work {
   background-color: #fff;
-  margin-bottom: 200px;
 }
 section.work .innner {
   width: 75%;
 }
 section.work .innner,
 section.gallery .innner{
-  margin: 100px auto 70px;
-  width: 90%;
+  margin: 20px auto 50px;
+  width: 66%;
 }
 
 
@@ -268,7 +267,7 @@ div.tag h6{
   display: inline-block;
 }
 .lp,.banner,.sale_banner, .illust {
-  padding: 10px 37px;
+  padding: 10px 35px;
 }
 .innner .lp figure {
   margin: 0;
@@ -310,7 +309,7 @@ transform: scale(1.1);
 transition-duration: 0.5s;
 }
 .more{
-  margin: 0px auto 78px;
+  margin: 80px auto 78px;
 }
 .more a {
   position: relative;
