@@ -269,8 +269,8 @@ section.gallery{
   margin: 0;
   width: 183px;
   padding: 5px;
-  background-color: #92c3d5;
-  color: #282828;
+  background-color: #5f5f5f;
+  color: #fff;
   letter-spacing: 1.6px;
   text-indent: 7.2px;
   font-size: 25px;
@@ -288,7 +288,7 @@ div.tag h6{
 .innner .lp figure {
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 610px;
   height: 561px;
   overflow: hidden;
 border: solid #ccc 1px;  
@@ -299,7 +299,7 @@ border: solid #ccc 1px;
 .innner .sale_banner figure {
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 610px;
   overflow: hidden;
 border: solid #ccc 1px;  
 }
@@ -307,7 +307,7 @@ border: solid #ccc 1px;
 .innner .banner figure {
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 610px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
@@ -344,8 +344,8 @@ transition-duration: 0.5s;
 .innner .illust figure {
   margin: 0px;
   padding: 0;
-  width: 250px;
-  height: 250px;
+  width: 610px;
+  height: 333px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
