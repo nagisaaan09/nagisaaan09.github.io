@@ -181,8 +181,6 @@ nav ul li{
 }
 .skills li {
   display: block;
-  width: 400px;
-  margin: 0 auto;
 }
 ul li{
   display: inline-flex;
@@ -222,6 +220,18 @@ ul li{
   text-align: center;
   list-style-type: disc;
   font-size: 22px;
+}
+.skill_1 {
+  margin: 0 5%;
+  width: 400px;
+}
+.skill_2 {
+  margin: 0 auto;
+  width: 400px;
+}
+.skill_3 {
+  margin: 0 55%;
+  width: 400px;
 }
 .sa--up {
   transform: translate(0, 100px);
