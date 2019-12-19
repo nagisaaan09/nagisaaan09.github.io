@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*====base=====*/
-
 html {
   margin: 0;
   padding: 0;
@@ -12,6 +11,7 @@ body {
   font-weight: 500;
   color: #333;
   line-height: 2.0;
+
 }
 
 h2,h3,h4,h5 {
@@ -82,7 +82,7 @@ section{
 }
 
 nav ul {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
 }
@@ -90,6 +90,9 @@ nav ul li{
   margin-right: 50px;
   font-size: 17px;
   letter-spacing: 1.2px;
+}
+section .about {
+  
 }
 .about h2 ,.Skill h2,.work h2,.gallery h2,.contact h2{
   text-align: center; 
@@ -101,18 +104,17 @@ nav ul li{
   width:50%;
   margin: 0 auto;
   letter-spacing: 1.7px;
-  font-size: 14px;
+  font-size: 35px;
 }
 .box{
   position: relative;
 }
 .profile {
   margin: 100px auto;
-  display: flex;
   justify-content: center;
 }
 .profile_illust img{
-  width: 346px;
+  width: 70%;
   border-radius: 50%;
   border: solid #92c3d5 5px;
   margin: 0 50px 0;
@@ -126,13 +128,13 @@ nav ul li{
   top: 35%;
 }
 .name {  
-  width: 195px;
-  height: 195px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   background-color: #92c3d5;
   position: absolute;
-  top: 307px;
-  left: 234px;
+  top: 500px;
+  right: 106px;
   z-index: -2;
 }
 .profile_illust {
@@ -146,7 +148,7 @@ nav ul li{
   padding: 55px ;
   position: relative;
   background-color: #fff;
-  margin: 0 50px;
+  margin: 313px 50px;
 }
 .career h2{
   display: inline-block;
@@ -156,16 +158,22 @@ nav ul li{
 .career p{
   font-size: 14px;
 }
+.box h2{
+  font-size: 30px;
+}
 .box2 {
-  width: 30px;
-  height: 30px;
-  border: solid 2px #fff;
-  border-color: transparent transparent #8e8e8e #8e8e8e;
-  transform: rotate(45deg);
-  background-color: #fff;
-  position: absolute;
-  left: -17px;
-  top: 150px;
+    width: 30px;
+    height: 30px;
+    border: solid 2px #fff;
+    border-color: #8e8e8e transparent transparent #8e8e8e;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+    right: 50%;
+    top: -17px;
+}
+.box2 h2{
+  font-size: 40px;
 }
 .skills{
   width: 100%;
@@ -230,12 +238,12 @@ section.work {
   background-color: #fff;
 }
 section.work .innner {
-  width: 75%;
+  width: 100%;
 }
 section.work .innner,
 section.gallery .innner{
   margin: 20px auto 50px;
-  width: 66%;
+  width: 100%;
 }
 
 
@@ -253,18 +261,20 @@ section.gallery{
 }
 .category{
   margin: 0;
-  width: 83px;
+  width: 183px;
   padding: 5px;
   background-color: #000;
   color: #fff;
   letter-spacing: 1.6px;
-  text-indent: 2.2px;
+  text-indent: 7.2px;
+  font-size: 25px;
 }
 div.tag h6{
   margin: 0;
   padding: 5px;
   border: solid 1px #6c6c6c;
   display: inline-block;
+  font-size: 22px;
 }
 .lp,.banner,.sale_banner, .illust {
   padding: 10px 35px;
@@ -272,7 +282,7 @@ div.tag h6{
 .innner .lp figure {
   margin: 0;
   padding: 0;
-  width: 291px;
+  width: 250px;
   height: 561px;
   overflow: hidden;
 border: solid #ccc 1px;  
@@ -283,7 +293,7 @@ border: solid #ccc 1px;
 .innner .sale_banner figure {
   margin: 0;
   padding: 0;
-  width: 290px;
+  width: 250px;
   overflow: hidden;
 border: solid #ccc 1px;  
 }
@@ -291,7 +301,7 @@ border: solid #ccc 1px;
 .innner .banner figure {
   margin: 0;
   padding: 0;
-  width: 291px;
+  width: 250px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
@@ -328,8 +338,8 @@ transition-duration: 0.5s;
 .innner .illust figure {
   margin: 0px;
   padding: 0;
-  width: 194px;
-  height: 194px;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
