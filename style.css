@@ -177,18 +177,13 @@ nav ul li{
 ul li{
   display: inline-flex;
 }
-.Skill {
-    background-color: #F9EBA1;
-    padding-top: 1px;
-    margin: 0;
-}
 
 .skills li div{
   display: table-cell;
   position: relative;
   width: 280px;
   height: 280px;
-  background-color: #fff;
+  background-color: #F9EBA1;
   border-radius: 50%;
   margin: 21px;
 }
@@ -255,8 +250,8 @@ section.gallery{
   margin: 0;
   width: 83px;
   padding: 5px;
-  background-color: #000;
-  color: #fff;
+  background-color: #FEAEAD;
+  color: #282828;
   letter-spacing: 1.6px;
   text-indent: 2.2px;
 }
