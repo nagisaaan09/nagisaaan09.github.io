@@ -155,7 +155,7 @@ nav ul li{
   font-size: 40px;
 }
 .career p{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .box2 {
@@ -174,9 +174,14 @@ nav ul li{
 }
 .skills{
   width: 100%;
-  display: flex;
+  display: block;
   justify-content: center;
   padding-bottom: 50px;
+  margin: 0 auto;
+}
+.skills li {
+  display: block;
+  width: 400px;
   margin: 0 auto;
 }
 ul li{
@@ -189,19 +194,18 @@ ul li{
 }
 
 .skills li div{
-  display: table-cell;
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 400px;
+  height: 400px;
   background-color: #fff;
   border-radius: 50%;
-  margin: 21px;
+  margin-bottom: 21px;
 }
 .skills img{
   position: absolute;
   top: 10%;
   left: 37%;
-  width: 80px;
+  width: 113px;
 }
 
 .skill_box {
@@ -211,13 +215,13 @@ ul li{
   text-align: center;
 }
 .skill_box h3{
-  font-size: 17px;
+  font-size: 30px;
 }
 .skills .skill_box li{
   display: block;
   text-align: center;
   list-style-type: disc;
-  font-size: 15px;
+  font-size: 22px;
 }
 .sa--up {
   transform: translate(0, 100px);
