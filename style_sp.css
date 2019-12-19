@@ -102,7 +102,7 @@ nav ul li{
   width:50%;
   margin: 0 auto;
   letter-spacing: 1.7px;
-  font-size: 35px;
+  font-size: 27px;
 }
 .box{
   position: relative;
@@ -118,7 +118,7 @@ nav ul li{
   margin: 0 50px 0;
 }
 .name h2{
-  font-size: 16px;
+  font-size: 30px;
   letter-spacing: 1.6px;
   width: 100%;
   text-align: center;
@@ -155,7 +155,7 @@ nav ul li{
   font-size: 40px;
 }
 .career p{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .box2 {
@@ -335,8 +335,8 @@ transition-duration: 0.5s;
 .innner .illust figure {
   margin: 0px;
   padding: 0;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   border: solid #ccc 1px;  
 }
