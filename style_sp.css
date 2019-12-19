@@ -112,7 +112,7 @@ nav ul li{
   justify-content: center;
 }
 .profile_illust img{
-  width: 70%;
+  width: 56%;
   border-radius: 50%;
   border: solid #92c3d5 5px;
   margin: 0 50px 0;
@@ -131,7 +131,7 @@ nav ul li{
   border-radius: 50%;
   background-color: #92c3d5;
   position: absolute;
-  top: 500px;
+  top: 320px;
   right: 106px;
   z-index: -2;
 }
@@ -146,19 +146,18 @@ nav ul li{
   padding: 55px ;
   position: relative;
   background-color: #fff;
-  margin: 313px 50px;
+  margin: 198px 50px;
 }
 .career h2{
   display: inline-block;
   border-bottom: solid 5px #38768d;
   margin-bottom: 40px;
+  font-size: 40px;
 }
 .career p{
   font-size: 14px;
 }
-.box h2{
-  font-size: 30px;
-}
+
 .box2 {
     width: 30px;
     height: 30px;
