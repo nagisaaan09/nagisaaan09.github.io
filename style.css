@@ -338,7 +338,7 @@ transition-duration: 0.5s;
 .contact {
   margin: 0 auto;
   width: 640px;
-  height: 500px;
+  height: 300px;
 }
 .contactback {
   background-color: #92c3d5;
@@ -366,4 +366,7 @@ h2 img{
 }
 #galleryjp,#contactjp {
   padding: 1px; 
+}
+.contact_wrapper p{
+  text-align: center;
 }
