@@ -338,6 +338,7 @@ transition-duration: 0.5s;
 .contact {
   margin: 0 auto;
   width: 640px;
+  height: 500px;
 }
 .contactback {
   background-color: #92c3d5;
